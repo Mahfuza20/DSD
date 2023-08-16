@@ -19,11 +19,8 @@ endmodule
 module MOD__10(q,qb,clr,clk);
 input clr,clk;
 output [3:0]q,qb;
-//initial
-//q=4'b 0000;
-wire a;
-//reg j=1;
 
+wire a;
 nand(clr,q[1],q[3]);
 
 JKFF jk0(q[0],qb[0],1,1,clr,clk);
