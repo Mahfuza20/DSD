@@ -3,7 +3,7 @@ input [3:0]e;
 output [3:0]b;
 
 wire w,a,d,x,y,z,v;
-//wire [3:0]eb;
+
 
 not(b[0],e[0]);
 
