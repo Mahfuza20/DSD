@@ -33,7 +33,7 @@ jkff jk3(q[3],qb[3],1,1,clr,q[2]);
 
 endmodule
 
-/*
+
 
 module synchronous_updowncounter(q,qb,m,clr,clk);
 input clr,clk,m;
@@ -52,7 +52,7 @@ or(f,d,e);
 jkff jk2(q[2],qb[2],f,f,clr,clk);
 
 endmodule
-*/
+
 
 
 
