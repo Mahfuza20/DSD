@@ -1,30 +1,3 @@
-/*
-module multiplexer8_to_1(out,i0,i1,i2,i3,i4,i5,i6,i7,s0,s1,s2);
-input i0,i1,i2,i3,i4,i5,i6,i7;
-input s0,s1,s2;
-output out;
-
-wire y0,y1,y2,y3,y4,y5,y6,y7;
-wire s0b,s1b,s2b;
-
-not(s0b,s0);
-not(s1b,s1);
-not(s2b,s2);
-
-and(y0,i0,s0b,s1b,s2b);
-and(y1,i1,s0b,s1b,s2);
-and(y2,i2,s0b,s1,s2b);
-and(y3,i3,s0b,s1,s2);
-and(y4,i4,s0,s1b,s2b);
-and(y5,i5,s0,s1b,s2);
-and(y6,i6,s0,s1,s2b);
-and(y7,i7,s0,s1,s2);
-
-or(out,y0,y1,y2,y3,y4,y5,y6,y7);
-
-endmodule
-*/
-
 
 module mux8to1 (out,i,s);
 input [7:0]i;
