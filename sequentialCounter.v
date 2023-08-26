@@ -17,7 +17,7 @@ nand(qb,q,d,clr);
 
 endmodule
 
-//lab question 2021
+//lab question 2021 jkff using t ff
 module sequestialCounter(q,clr,clk);
 input clr,clk;
 output [3:0]q;
